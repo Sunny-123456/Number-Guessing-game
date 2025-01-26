@@ -1,6 +1,7 @@
 # Number-Guessing-game
 <br> 
 My First Project 
+<br>
 Number Guessing Game in Python
 Welcome to Guess It Right! 🎯, a simple yet engaging number guessing game built with Python. This project allows users to guess a randomly generated number between 1 and 100, with two difficulty levels to choose from: Easy and Hard.
 
