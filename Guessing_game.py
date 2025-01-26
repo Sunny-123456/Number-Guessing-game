@@ -1,5 +1,6 @@
 import random
 #Number Guessing Game
+
 #Variables
 random_value=random.randint(1,100)
 user_difficulty=None
@@ -20,7 +21,6 @@ while name_value:
         name_value=False
 
 #User-Difficulty
-
 difficulty = True
 while difficulty:
         user_difficulty=input("Select your difficulty 'easy' or 'hard': ").casefold()
@@ -36,7 +36,7 @@ else:
     print("You have 5 Maximum attempts to guess the number")
     user_life=5
 
-print("\n////////////////////////////////////////////////////////////////  Lets Begin  ////////////////////////////////////////////////////////////////////////////\n")
+print("\n////////////////////////////////////////////////////////////////  Let's Begin  ////////////////////////////////////////////////////////////////////////////\n")
 
 game_=True
 reduce_life = user_life
